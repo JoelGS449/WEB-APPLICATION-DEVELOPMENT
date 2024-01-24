@@ -1,0 +1,234 @@
+/* CSS/estilos.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Color de fondo */
+    margin: 0;
+    padding: 20px;
+    
+}
+
+body a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+.header-table {
+    
+    background-color: #F37fff; /* Color de fondo del encabezado de la tabla */
+    color: #fff; /* Color del texto en el encabezado de la tabla */
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.header-table th {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    text-align: center;
+    background-color: #fff; /* Color de fondo del contenedor de productos */
+    border: 1px solid #ddd; /* Borde del contenedor de productos */
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #000000; /* Color del precio */
+    font-size: 16px;
+}
+
+.btn-modify,
+.btn-add {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f0b1f7; /* Color del botón */
+    color: #fff; /* Color del texto del botón */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-modify:hover,
+.btn-add:hover {
+    background-color: #333; /* Cambio de color al pasar el mouse sobre el botón */
+}
+
+
+.imagen-table {
+        text-align: center;
+        background-color: #94d3f0;
+        width: 400px;
+        margin: 20px auto; /* Ajusta según tus necesidades */
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .imagen-table th {
+        padding: 10px;
+    }
+
+    .imagen-table input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .imagen-table input[type="submit"] {
+        width: 100%;
+        background-color: #F0A2F8;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+.venta-form {
+        text-align: center;
+        margin: 20px auto; /* Ajusta según tus necesidades */
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%; /* Ajusta según tus necesidades */
+        background-color: #94d3f0;
+    }
+
+    .venta-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px; /* Ajusta según tus necesidades */
+    }
+
+    .venta-table th, .venta-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .venta-table th {
+        background-color: skyblue;
+        color: black;
+        font-weight: bold;
+    }
+
+    .venta-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .venta-total {
+        text-align: right;
+        font-weight: bold;
+    }
+
+    .venta-submit {
+        width: 100%;
+        background-color: #F0A2F8;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px; /* Ajusta según tus necesidades */
+    }
+.consultar-ventas {
+        text-align: center;
+        margin: 20px auto; /* Ajusta según tus necesidades */
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%; /* Ajusta según tus necesidades */
+        background-color: #94d3f0;
+    }
+
+    .ventas-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px; /* Ajusta según tus necesidades */
+    }
+
+    .ventas-table th, .ventas-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .ventas-table th {
+        background-color: skyblue;
+        color: black;
+    }
+
+    .ventas-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .detalle-frame {
+        margin: 0 auto;
+        width: 650px;
+    }
+    
+    
+    .login-form {
+        text-align: center;
+        margin: 20px auto; /* Ajusta según tus necesidades */
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        background-color: #94d3f0;
+    }
+
+    .login-form table {
+        width: 100%;
+    }
+
+    .login-form th, .login-form td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .login-form input[type="submit"] {
+        width: 100%;
+        background-color: #F0A2F8;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .login-msg {
+        margin-top: 10px;
+        text-align: center;
+    }
